@@ -1,3 +1,6 @@
+# colab:
+https://colab.research.google.com/drive/181Ilic3WX4vtJJ2slFANs6cUB23oatwB?usp=sharing
+
 # Exercise 1
 Error: The provided function id_to_fruit is intended to return a fruit from a set based on a specified index. However, the function does not work correctly because it relies on the order of elements in a set, which is inherently unordered in Python. This means that the order of elements in a set can vary between executions, leading to inconsistent and incorrect results.
 Symptoms: When running the function with a set of fruits, the returned fruit may not match the expected fruit at the given index. For example, given the set {"apple", "orange", "melon", "kiwi", "strawberry"} and requesting the fruit at index 1, the function might return 'melon' instead of the expected 'orange'.
